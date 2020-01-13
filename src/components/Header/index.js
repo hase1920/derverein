@@ -19,7 +19,7 @@ const Header = ({ siteTitle}) => {
     <Container noHorizontalPadding
       css={css`
         display:flex;
-        margin:5px 0;
+        margin:25px 0;
 
         `}
     >
@@ -29,7 +29,7 @@ const Header = ({ siteTitle}) => {
       aria-label="go to homepage"
       css={css`
         position:absolute;
-       margin-left:20px;
+       margin-left:30px;
        margin-top:-25px;
 
        zIndex:50;
@@ -39,7 +39,7 @@ const Header = ({ siteTitle}) => {
           color: black;
           text-decoration: none;
         }
-        @media(max-width:500px) {
+        @media(max-width:600px) {
           font-size: 16px;
           text-align:right;
 

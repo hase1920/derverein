@@ -12,8 +12,8 @@ banner: './Strandbad-2.jpg'
 <section>
 <br/>
 
-![Sitzbank](./images/chronik/Rabbi-Ufer_Baenke_IMG_0635.jpg)
-<span>Bldunterschrift. </span>
+![Sitzbank](/images/chronik/Rabbi-Ufer_Baenke_IMG_0635.jpg)
+<span>Eine der neuen Sitz/Liegebänke am Bacharacher Ufer </span>
 
 </section>
 <section>
@@ -110,7 +110,7 @@ Idee und Einrichtung des Winzerfestes.
 </section>
 <section>
 
-![Sitzbank](./images/chronik/Winzerfest_ca1950.jpg)
+![Sitzbank](/images/chronik/Winzerfest_ca1950.jpg)
 
 <span> Winzerfest </span>
 
@@ -136,11 +136,11 @@ Auf Initiative des VV Einrichtung einer Landbrücke für die Schiffe der Köln-D
 </section>
 <section>
 
-![Sitzbank](./images/chronik/Strandbad-2.jpg)
+![Sitzbank](/images/chronik/Strandbad-2.jpg)
 
 <span> 1927 wurde das Strandbad geplant und umgesetzt. </span>
 
-![Sitzbank](./images/chronik/Uferpark_ca1920.jpg)
+![Sitzbank](/images/chronik/Uferpark_ca1920.jpg)
 
 <span> 1904 wird eine Landbrücke eingerichtet. </span>
 
@@ -163,15 +163,15 @@ Nach dem verheerenden Großbrand, bei dem halb Bacharach in Schutt und Asche gel
 
 <section>
 
-![Sitzbank](./images/chronik/Postkarte_1903.jpg)
+![Sitzbank](/images/chronik/Postkarte_1903.jpg)
 
 <span>Bacharach wird zunehmend auch durch Ansichtskarten beworben. </span>
 
-![Sitzbank](./images/chronik/Rheinanlagen-1903.jpg)
+![Sitzbank](/images/chronik/Rheinanlagen-1903.jpg)
 
 <span> Die Idee zu Rheinanlagen wird 1902 realisiert.  </span>
 
-![Sitzbank](./images/chronik/Hochwasser_ca1920.jpg)
+![Sitzbank](/images/chronik/Hochwasser_ca1920.jpg)
 
 <span> Aufnahme vom Hochwasser 1920 in Bacharach. </span>
 

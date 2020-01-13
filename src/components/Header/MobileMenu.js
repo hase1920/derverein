@@ -29,7 +29,7 @@ const Toggle = ({ children }) => {
         onClick={toggle}
         aria-label={`${isToggledOn ? 'close menu' : 'open menu'}`}
         css={css`
-          color: black;
+          color: ${theme.colors.black};
           z-index: 30;
           top: -5px;
           left: -5px;
@@ -95,7 +95,7 @@ const Toggle = ({ children }) => {
             animation: ${FaMo} .5s ease-in;
             display: flex;
             align-items: center;
-            background: ${theme.colors.black};
+            background: ${theme.colors.white};
 
 
           `}
@@ -107,7 +107,7 @@ const Toggle = ({ children }) => {
               align-items: center;
               justify-content: space-evenly;
               a {
-                color: white;
+                color: black;
                 font-size: 22px;
                 margin: 10px 0;
                 padding: 10px;
