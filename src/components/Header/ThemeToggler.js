@@ -9,6 +9,7 @@ const DarkMode = styled(FiMoon)({
   alignItems: 'center',
   justifyContent: 'center',
   margin: '0',
+  color:'black'
 })
 
 const DefaultMode = styled(FiSun)({

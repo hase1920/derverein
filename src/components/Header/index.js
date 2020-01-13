@@ -8,14 +8,19 @@ import Links from './Links'
 
 import Container from '../Container'
 
+
+
+
+
 const Header = ({ siteTitle}) => {
 //  const theme = useTheme()
   return (
 <>
-    <Container noHorizontalPadding 
+    <Container noHorizontalPadding
       css={css`
         display:flex;
         margin:5px 0;
+
         `}
     >
     <Link
@@ -37,7 +42,7 @@ const Header = ({ siteTitle}) => {
         @media(max-width:500px) {
           font-size: 16px;
           text-align:right;
-          margin-left:-6px;
+
 
         }
 
@@ -52,7 +57,7 @@ const Header = ({ siteTitle}) => {
           font-family: 'Roboto', sans-serif;
           color: black;
           padding-left:100px;
-          font-size:21px;
+          font-size:24px;
            margin-bottom:20px;
           @media(max-width:700px) {
             font-size: 19px;

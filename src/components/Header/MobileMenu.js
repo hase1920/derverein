@@ -1,22 +1,35 @@
 import React, { useState } from 'react'
-import { css } from '@emotion/core'
+import { css,keyframes } from '@emotion/core'
 import Container from '../Container'
 //import { bpMaxSM } from '../../lib/breakpoints'
 import { useTheme } from '../Theming'
+
+const FaMo = keyframes`
+
+ 0%{
+   opacity: .7;
+   height:0px;
+ }
+ 100%{
+   opacity: 1;
+   height:100vh;
+ }
+`
+
 const Toggle = ({ children }) => {
   const [isToggledOn, setToggle] = useState(false)
   const toggle = () => setToggle(!isToggledOn)
   const theme = useTheme()
 
 
-  return (
-    <div
 
-    >
+  return (
+    <div>
       <button
         onClick={toggle}
         aria-label={`${isToggledOn ? 'close menu' : 'open menu'}`}
         css={css`
+          color: black;
           z-index: 30;
           top: -5px;
           left: -5px;
@@ -33,9 +46,10 @@ const Toggle = ({ children }) => {
       >
         <div
           css={css`
+
             width: 24px;
             height: 2px;
-            background: black;
+            background: ${theme.colors.black};
             position: absolute;
             left: 0;
 
@@ -45,7 +59,7 @@ const Toggle = ({ children }) => {
               top: -8px;
               width: 24px;
               height: 2px;
-              background: black;
+              background: ${theme.colors.black};
               position: absolute;
               left: 0;
               ${isToggledOn
@@ -78,9 +92,12 @@ const Toggle = ({ children }) => {
             top: 0;
             width: 100vw;
             height: 100vh;
+            animation: ${FaMo} .5s ease-in;
             display: flex;
             align-items: center;
-            background: ${theme.colors.headerBg};
+            background: ${theme.colors.black};
+
+
           `}
         >
           <Container
