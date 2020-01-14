@@ -40,6 +40,8 @@ export const LinkedIn = ({ url = `${config.linkedin}` }) => {
     <Link
       to={url}
       css={css`
+        position:relative;
+        z-index:1;
         margin-left: 10px;
         color: ${theme.colors.text};
         :hover {

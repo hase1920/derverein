@@ -24,13 +24,14 @@ export default function Index({ data: { site } }) {
           flex-wrap:wrap;
           padding-bottom: 0;
           justify-content: space-between;
+          font-size:14px;
         `}
       >
 <div>
 
 <h1 style={{fontSize:'22px'}}>Verschönerungsverein Bacharach</h1>
 
-Langstr. 48<br/>
+postalische Adresse VVB...<br/>
 55422 Bacharach<br />
 Email: [wird demnächst eingetragen]<br/>
 Tel: [wird demnächst eingetragen]<br />
@@ -39,7 +40,7 @@ Tel: [wird demnächst eingetragen]<br />
 <p>Webseite noch im Aufbau...</p>
 <Link to="/datenschutz">Unsere Datenschutzbestimmungen</Link><br/><br/>
 
-Website programmiert von René Broich, Bacharach<br/>
+Website: Programmierung von René Broich // Gestaltung von Katrin Gloggengießer, Bacharach<br/>
 Email: renbroi@icloud.com
 
 

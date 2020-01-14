@@ -25,12 +25,13 @@ export default function Index({ data: { site } }) {
           flex-wrap:wrap;
           padding-bottom: 0;
           justify-content: space-between;
+          font-size:14px;
         `}
       >
 
 
 
-<h1 style={{fontSize:'22px'}}>Verschönerungsverein</h1>
+<h1 >Verschönerungsverein</h1>
 
 
 Die Webseite ist noch in der Entwicklung...
@@ -38,7 +39,7 @@ Bis zum Abschluss werden keine Daten von den Besuchern ermittelt bis auf
 die technisch notwendigen Serverlog-Daten, die rein technischer Natur sind.
 
 Verschönerungsverein Bacharach <br/>
-c/o Fritz Stöber <br/>
+c/o Fritz Stüber <br/>
 xxxxx 12 <br/>
 xxxx <br/>
 xxxx <br/>
@@ -47,7 +48,7 @@ E-Mail: xxxx <br/>
 Kontakt Datenschutzbeauftragter whz.clubnaxos@gmail.com
 
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}> Hosting und E-Mail-Versand </h2>
+<h2 style={{fontSize:'19px'}}> Hosting und E-Mail-Versand </h2>
 
 Die von uns in Anspruch genommenen Hosting-Leistungen dienen der Zurverfügungstellung der folgenden Leistungen: Infrastruktur- und Plattformdienstleistungen, Rechenkapazität, Speicherplatz und Datenbankdienste, E-Mail-Versand, Sicherheitsleistungen sowie technische Wartungsleistungen, die wir zum Zwecke des Betriebs dieses Onlineangebotes einsetzen.
 
@@ -56,7 +57,7 @@ Hierbei verarbeiten wir, bzw. unser Hostinganbieter Bestandsdaten, Kontaktdaten,
 Erstellt mit Datenschutz-Generator.de von RA Dr. jur. Thomas Schwenke
 
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}> Google Tag Manager</h2>
+<h2 style={{fontSize:'19px'}}> Google Tag Manager</h2>
 
 Google Tag Manager ist eine Lösung, mit der wir sog. Website-Tags über eine Oberfläche verwalten können (und so z.B. Google Analytics sowie andere Google-Marketing-Dienste in unser Onlineangebot einbinden). Der Tag Manager selbst (welches die Tags implementiert) verarbeitet keine personenbezogenen Daten der Nutzer. Im Hinblick auf die Verarbeitung der personenbezogenen Daten der Nutzer wird auf die folgenden Angaben zu den Google-Diensten verwiesen. Nutzungsrichtlinien: https://www.google.com/intl/de/tagmanager/use-policy.html.
 
@@ -64,7 +65,7 @@ Erstellt mit Datenschutz-Generator.de von RA Dr. jur. Thomas Schwenke
 
 
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}> Google Analytics</h2>
+<h2 style={{fontSize:'19px'}}> Google Analytics</h2>
 
 Wir setzen auf Grundlage unserer berechtigten Interessen (d.h. Interesse an der Analyse, Optimierung und wirtschaftlichem Betrieb unseres Onlineangebotes im Sinne des Art. 6 Abs. 1 lit. f. DSGVO) Google Analytics, einen Webanalysedienst der Google LLC („Google“) ein. Google verwendet Cookies. Die durch das Cookie erzeugten Informationen über Benutzung des Onlineangebotes durch die Nutzer werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
 
@@ -83,7 +84,7 @@ Die personenbezogenen Daten der Nutzer werden nach 14 Monaten gelöscht oder ano
 Erstellt mit Datenschutz-Generator.de von RA Dr. jur. Thomas Schwenke
 
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}> Onlinepräsenzen in sozialen Medien</h2>
+<h2 style={{fontSize:'19px'}}> Onlinepräsenzen in sozialen Medien</h2>
 
 Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und Plattformen, um mit den dort aktiven Kunden, Interessenten und Nutzern kommunizieren und sie dort über unsere Leistungen informieren zu können.
 
@@ -118,7 +119,7 @@ Auch im Fall von Auskunftsanfragen und der Geltendmachung von Nutzerrechten, wei
 Erstellt mit Datenschutz-Generator.de von RA Dr. jur. Thomas Schwenke
 
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}>Einbindung von Diensten und Inhalten Dritter </h2>
+<h2 style={{fontSize:'19px'}}>Einbindung von Diensten und Inhalten Dritter </h2>
 
 Wir setzen innerhalb unseres Onlineangebotes auf Grundlage unserer berechtigten Interessen (d.h. Interesse an der Analyse, Optimierung und wirtschaftlichem Betrieb unseres Onlineangebotes im Sinne des Art. 6 Abs. 1 lit. f. DSGVO) Inhalts- oder Serviceangebote von Drittanbietern ein, um deren Inhalte und Services, wie z.B. Videos oder Schriftarten einzubinden (nachfolgend einheitlich bezeichnet als “Inhalte”).
 
@@ -127,28 +128,28 @@ Dies setzt immer voraus, dass die Drittanbieter dieser Inhalte, die IP-Adresse d
 Erstellt mit Datenschutz-Generator.de von RA Dr. jur. Thomas Schwenke
 
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}> Vimeo</h2>
+<h2 style={{fontSize:'19px'}}> Vimeo</h2>
 
 Wir können die Videos der Plattform “Vimeo” des Anbieters Vimeo Inc., Attention: Legal Department, 555 West 18th Street New York, New York 10011, USA, einbinden. Datenschutzerklärung: https://vimeo.com/privacy. Wir weisen darauf hin, dass Vimeo Google Analytics einsetzen kann und verweisen hierzu auf die Datenschutzerklärung (https://policies.google.com/privacy) sowie Opt-Out-Möglichkeiten für Google-Analytics (http://tools.google.com/dlpage/gaoptout?hl=de) oder die Einstellungen von Google für die Datennutzung zu Marketingzwecken (https://adssettings.google.com/).
 
 Erstellt mit Datenschutz-Generator.de von RA Dr. jur. Thomas Schwenke
 
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}> Youtube</h2>
+<h2 style={{fontSize:'19px'}}> Youtube</h2>
 
 Wir binden die Videos der Plattform “YouTube” des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein. Datenschutzerklärung: https://www.google.com/policies/privacy/, Opt-Out: https://adssettings.google.com/authenticated.
 
 Erstellt mit Datenschutz-Generator.de von RA Dr. jur. Thomas Schwenke
 
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}> Google Fonts</h2>
+<h2 style={{fontSize:'19px'}}> Google Fonts</h2>
 
 Wir binden die Schriftarten ("Google Fonts") des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein. Datenschutzerklärung: https://www.google.com/policies/privacy/, Opt-Out: https://adssettings.google.com/authenticated.
 
 Erstellt mit Datenschutz-Generator.de von RA Dr. jur. Thomas Schwenke
 
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}> Google Maps</h2>
+<h2 style={{fontSize:'19px'}}> Google Maps</h2>
 
 Wir binden die Landkarten des Dienstes “Google Maps” des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein. Zu den verarbeiteten Daten können insbesondere IP-Adressen und Standortdaten der Nutzer gehören, die jedoch nicht ohne deren Einwilligung (im Regelfall im Rahmen der Einstellungen ihrer Mobilgeräte vollzogen), erhoben werden. Die Daten können in den USA verarbeitet werden. Datenschutzerklärung: https://www.google.com/policies/privacy/, Opt-Out: https://adssettings.google.com/authenticated.
 
@@ -156,7 +157,7 @@ Erstellt mit Datenschutz-Generator.de von RA Dr. jur. Thomas Schwenke
 
 
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}> Verwendung von Facebook Social Plugins</h2>
+<h2 style={{fontSize:'19px'}}> Verwendung von Facebook Social Plugins</h2>
 
 Wir nutzen auf Grundlage unserer berechtigten Interessen (d.h. Interesse an der Analyse, Optimierung und wirtschaftlichem Betrieb unseres Onlineangebotes im Sinne des Art. 6 Abs. 1 lit. f. DSGVO) Social Plugins ("Plugins") des sozialen Netzwerkes facebook.com, welches von der Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland betrieben wird ("Facebook").
 Hierzu können z.B. Inhalte wie Bilder, Videos oder Texte und Schaltflächen gehören, mit denen Nutzer Inhalte dieses Onlineangebotes innerhalb von Facebook teilen können. Die Liste und das Aussehen der Facebook Social Plugins kann hier eingesehen werden: https://developers.facebook.com/docs/plugins/.
@@ -180,27 +181,27 @@ Der Verschönerungsverein Bacharach ist bemüht, sein Webangebot stets aktuell u
 
 Sofern innerhalb des Internetangebotes die Möglichkeit der Eingabe von persönlichen Daten (E-Mail-Adresse, Namen, Anschriften) besteht, erfolgt diese freiwillig. Der Verschönerungsverein Bacharach erklärt ausdrücklich, dass es diese Daten nicht an Dritte weitergibt.
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}>Rechtswirksamkeit </h2>
+<h2 style={{fontSize:'19px'}}>Rechtswirksamkeit </h2>
 
 Dieser Haftungsausschluss ist Teil des Internetangebotes des Verschönerungsverein, Bacharach. Sofern einzelne Formulierungen oder Teile dieses Textes der geltenden Rechtslage nicht mehr oder nicht mehr vollständig entsprechen, bleiben die übrigen Teile dieser Erklärung davon unberührt.
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}> COPYRIGHT </h2>
+<h2 style={{fontSize:'19px'}}> COPYRIGHT </h2>
 
 Das Layout der Homepage, die verwendeten Grafiken und Bilder sowie die einzelnen Beiträge sind urheberrechtlich geschützt.
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}> Externe Verweise und Links</h2>
+<h2 style={{fontSize:'19px'}}> Externe Verweise und Links</h2>
 
 Der Verschönerungsverein Bacharach hat keinen Einfluss auf Gestaltung und Inhalte fremder Internetseiten. Es distanziert sich daher von allen fremden Inhalten, auch wenn von der Webseite des Verschönerungsverein auf diese externe Seiten ein Link gesetzt wurde.
 
 Diese Erklärung gilt für alle auf unserer Website angezeigten Links und für alle Inhalte der Seiten, zu denen die bei uns angemeldeten Banner und Links führen.
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}> Fotos</h2>
+<h2 style={{fontSize:'19px'}}> Fotos</h2>
 
 Die auf der Website des Verschönerungsverein verwendeten Fotos sind von: Seweryn Zelazny, Rebekka Waitz, Herbert Cybulska.
 
 Die Fotos unterliegen dem Copyright des jeweiligen Fotografen/Künstlers.
 
-<h2 style={{fontSize:'19px', textTransform:'uppercase'}}> Video-Trailer</h2>
+<h2 style={{fontSize:'19px'}}> Video-Trailer</h2>
 
 Die auf der Website des Verschönerungsverein verwendeten Videos/Trailer sind von: Otmar Hitzelberger, Rebekka Waitz, Tobias Winter, Parastu Najibmanesch
 

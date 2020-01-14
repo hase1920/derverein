@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import { css } from '@emotion/core'
 //import { useTheme } from '../Theming'
-//import { bpMaxSM } from '../../lib/breakpoints'
+import { bpMaxSM } from '../../lib/breakpoints'
 import MobileMenu from './MobileMenu'
 import Links from './Links'
 
@@ -56,7 +56,7 @@ const Header = ({ siteTitle}) => {
         css={css`
           font-family: 'Roboto', sans-serif;
           color: black;
-          padding-left:100px;
+          padding-left:110px;
           font-size:24px;
            margin-bottom:20px;
           @media(max-width:700px) {
@@ -82,8 +82,10 @@ const Header = ({ siteTitle}) => {
             justify-content: flex-end;
             align-items: space-between;
 
-            margin:auto;
-
+            margin:-92px auto;
+            ${ bpMaxSM} {
+              margin-top:-20px;
+            }
           `}
         >
 
@@ -93,7 +95,7 @@ const Header = ({ siteTitle}) => {
               line-height: 1.25;
               display: flex;
               align-items: center;
-
+              margin-top:-30px;
               a {
                 font-family: 'Roboto',sans-serif;
                 text-decoration: none;

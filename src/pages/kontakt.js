@@ -3,7 +3,6 @@ import { graphql } from 'gatsby'
 import { css } from '@emotion/core'
 //import styled from '@emotion/styled'
 import Layout from 'components/Layout'
-import Link from 'components/Link'
 //import { useTheme } from 'components/Theming'
 import Container from 'components/Container'
 //import { rhythm } from '../lib/typography'
@@ -23,6 +22,7 @@ export default function Index({ data: { site } }) {
           flex-direction: column;
           padding-bottom: 0;
           justify-content: flex-start;
+          font-size:14px;
         `}
       >
 
@@ -52,7 +52,7 @@ Copyright: Das Copyright für Bilder und Texte liegt, soweit nicht anders vermer
  <br/>
 
 
- <Link to="/impressum">Impressum</Link>
+
 
 
       </Container>
